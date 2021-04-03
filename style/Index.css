@@ -211,7 +211,7 @@ div{
     grid-column: 4/6;
 }
 .item5{
-    grid-column: 3/6;
+    grid-column: 1/4;
 }
 
 #item6{
@@ -256,12 +256,13 @@ div{
         grid-column: 1/6;
         justify-items: stretch;
     }
-    .item4 ,.item5{
+    .item4 ,.item7{
         grid-column: 1/6;
         justify-items: stretch;
     }
-    .item7{
-        grid-column: 1/6;
+
+    .item5{
+        grid-column: 1/4;
         justify-items: stretch;
     }
 }
